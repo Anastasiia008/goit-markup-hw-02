@@ -2,8 +2,8 @@
     --text: #434455;
     --white: #ffffff;
     --interactive-elements: #4d5ae5;
-    --title-text: #2e2f42;
-
+    --dark-color: #2e2f42;
+    --hover-btn: #404BBF;
     --secondary-background-color: #f4f4fd;
     --subtle-background: #e7e9fc;
 }
@@ -51,7 +51,7 @@ body {
     font-size: 18px;
     line-height: 1.33;
     letter-spacing: 0.03em;
-    color: var(--title-text);
+    color: var(--dark-color);
 }
 
 .logo-color {
@@ -71,15 +71,13 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--title-text);
+    color: var(--dark-color);
 }
 
 .menu-link:hover,
 .menu-link:focus {
     color: var(--interactive-elements);
 }
-
-
 
 .contact {
     font-family: 'Roboto', sans-serif;
@@ -96,3 +94,48 @@ body {
 }
 
 /* main */
+
+.hero {
+background-color: var(--dark-color);;
+}
+
+.hero-title {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    color: var(--white);;
+}
+
+.hero-btn {
+font-family: 'Roboto', sans-serif;
+font-weight: 500;
+font-size: 16px;
+cursor: pointer;
+color: var(--white);
+background: var(--interactive-elements) ;
+}
+
+.hero-btn:hover
+.hero-btn:focus {
+    color: var(--hover-btn);
+}
+
+.description {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5px;
+    letter-spacing: 0.02em;
+    color: var(--text);
+}
+
+.subtitle {
+font-family: 'Roboto', sans-serif;
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: var(--dark-color);
+}
