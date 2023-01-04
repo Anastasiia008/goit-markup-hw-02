@@ -3,17 +3,17 @@
     --white: #ffffff;
     --interactive-elements: #4d5ae5;
     --dark-color: #2e2f42;
-    --hover-btn: #404BBF;
+    --portfolio-btn: #404BBF;
     --secondary-background-color: #f4f4fd;
     --subtle-background: #e7e9fc;
+    --primary-font: "Roboto", sans-serif;
+    --secondary-font: "Raleway", sans-serif;
 }
 
 body {
         color: var(--text);
         background-color: var(--white);
-        font-family: "Roboto", sans-serif;
-        font-size: 16px;
-        line-height: 1.5;
+        font-family: var(--primary-font);
         letter-spacing: 0.02em;
     }
 
@@ -38,15 +38,13 @@ body {
     margin: -1px;
 }
 
-/* logo */
-
 .logo:hover,
 .logo:focus {
     color: var(--interactive-elements);
 }
 
 .logo {
-    font-family: "Raleway", sans-serif;
+    font-family: var(--secondary-font);
     font-weight: 800;
     font-size: 18px;
     line-height: 1.33;
@@ -55,7 +53,7 @@ body {
 }
 
 .logo-color {
-    font-family: 'Raleway', sans-serif;
+    font-family: var(--secondary-font);
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
@@ -63,14 +61,11 @@ body {
     color: var(--interactive-elements);
 }
 
-/* header */
 
 .menu-link {
-    font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 0.02em;
     color: var(--dark-color);
 }
 
@@ -80,12 +75,10 @@ body {
 }
 
 .contact {
-    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 0.02em;
 
 }
 
@@ -93,23 +86,19 @@ body {
     color: var(--text);
 }
 
-/* main */
 
 .hero {
 background-color: var(--dark-color);;
 }
 
 .hero-title {
-    font-family: 'Roboto', sans-serif;
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
-    letter-spacing: 0.02em;
     color: var(--white);;
 }
 
 .hero-btn {
-font-family: 'Roboto', sans-serif;
 font-weight: 500;
 font-size: 16px;
 cursor: pointer;
@@ -117,25 +106,64 @@ color: var(--white);
 background: var(--interactive-elements) ;
 }
 
-.hero-btn:hover
+.hero-btn:hover,
 .hero-btn:focus {
-    color: var(--hover-btn);
+    background-color: var(--portfolio-btn);
 }
 
 .description {
-    font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 16px;
-    line-height: 1.5px;
-    letter-spacing: 0.02em;
-    color: var(--text);
+    line-height: 1.5;
 }
 
 .subtitle {
-font-family: 'Roboto', sans-serif;
 font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
-letter-spacing: 0.02em;
 color: var(--dark-color);
+}
+
+.second-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-transform: capitalize;
+    color: var(--dark-color);
+}
+
+.team {
+    background-color: var(--secondary-background-color);
+}
+
+.team-item {
+    background-color: var(--white);
+}
+
+.footer {
+    background-color: var(--dark-color);
+}
+
+.footer-color {
+    color: var(--subtle-background);
+}
+
+.dark-theme {
+    color: var(--secondary-background-color);
+}
+
+.portfolio-btn {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+    color: var(--interactive-elements);
+    background: var(--secondary-background-color);
+}
+
+.portfolio-btn:hover,
+.portfolio-btn:focus {
+    color: var(--white);
+    background: var(--portfolio-btn);
 }
