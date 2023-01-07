@@ -14,7 +14,6 @@ body {
         color: var(--text);
         background-color: var(--white);
         font-family: var(--primary-font);
-        letter-spacing: 0.02em;
     }
 
 .list {
@@ -67,6 +66,7 @@ body {
     font-size: 16px;
     line-height: 1.5;
     color: var(--dark-color);
+    letter-spacing: 0.02em;
 }
 
 .menu-link:hover,
@@ -78,7 +78,7 @@ body {
     font-style: normal;
     font-size: 16px;
     line-height: 1.5;
-
+    letter-spacing: 0.02em;
 }
 
 .contact-link:hover,
@@ -88,18 +88,21 @@ body {
 
 .contact-link {
     color: var(--text);
+    
 }
 
 
 .hero {
-background-color: var(--dark-color);;
+background-color: var(--dark-color);
+letter-spacing: 0.02em;
 }
 
 .hero-title {
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
-    color: var(--white);;
+    color: var(--white);
+    letter-spacing: 0.02em;
 }
 
 .hero-btn {
@@ -108,6 +111,8 @@ font-size: 16px;
 cursor: pointer;
 color: var(--white);
 background: var(--interactive-elements) ;
+font: var(--primary-font);
+letter-spacing: 0.04em;
 }
 
 .hero-btn:hover,
@@ -118,6 +123,7 @@ background: var(--interactive-elements) ;
 .description {
     font-size: 16px;
     line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
 .subtitle {
@@ -125,6 +131,7 @@ font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
 color: var(--dark-color);
+letter-spacing: 0.02em;
 }
 
 .second-title {
@@ -133,26 +140,32 @@ color: var(--dark-color);
     line-height: 1.11;
     text-transform: capitalize;
     color: var(--dark-color);
+    letter-spacing: 0.02em;
 }
 
 .team {
     background-color: var(--secondary-background-color);
+    letter-spacing: 0.02em;
 }
 
 .team-item {
     background-color: var(--white);
+    letter-spacing: 0.02em;
 }
 
 .footer {
     background-color: var(--dark-color);
+    letter-spacing: 0.02em;
 }
 
 .footer-color {
     color: var(--subtle-background);
+    letter-spacing: 0.02em;
 }
 
 .dark-theme {
     color: var(--secondary-background-color);
+    letter-spacing: 0.03em;
 }
 
 .portfolio-btn {
@@ -163,6 +176,7 @@ color: var(--dark-color);
     cursor: pointer;
     color: var(--interactive-elements);
     background: var(--secondary-background-color);
+    font: var(--primary-font);
 }
 
 .portfolio-btn:hover,
